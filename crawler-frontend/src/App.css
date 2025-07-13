@@ -1,0 +1,34 @@
+/* Общие стили */
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Таблица обёрнута для горизонтальной прокрутки на мобилках */
+.table-container {
+  overflow-x: auto;
+}
+
+/* Таблица */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+  min-width: 900px; /* Чтобы заголовки не слипались */
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
